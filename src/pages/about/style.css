@@ -5,6 +5,11 @@
 .table td,
 .table th {
     color: var(--text-color);
+    padding-bottom: 40px;
+}
+
+.table{
+    border-spacing: 30px;
 }
 
 .t_border {
