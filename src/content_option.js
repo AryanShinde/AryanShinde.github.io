@@ -8,7 +8,7 @@ const introdata = {
   title: 'I’m Aryan Shinde.',
   animated: {
     first: 'Full Stack Web Developer',
-    second: 'Problem solving',
+    second: 'Problem solver',
     third: 'Open Source Enthusiast',
     fourth: 'Project Manager',
   },
@@ -49,12 +49,7 @@ const worktimeline = [
     description:
       'Won the 1st prize amonst 200+ participants from around the globe in an International hackathon organized by the students of Bay Area, California.',
   },
-  {
-    jobtitle: 'Winner, HackSprint 2k22 Hackathon.',
-    date: '2022',
-    description:
-      'Won 1st prize amongst 30+ teams participating with over 120+ participants sponsored by TATA Technologies.',
-  },
+
   {
     jobtitle: '1st Runner up, CodeBreak 3.0 Hackathon.',
     date: '2022',
@@ -139,99 +134,82 @@ const services = [
 
 const dataportfolio = [
   {
-    img: 'https://picsum.photos/400/?grayscale',
+    img: 'https://user-images.githubusercontent.com/73652194/201530967-5685451d-b8d9-4a15-93b3-f6b546faa3a0.png',
     desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'Mimic: A React framework that helps you write jsx smoothly. Created Internal working of ReactJs using Fiber Tree.',
+    link: 'https://github.com/AryanShinde/Mimic-React-framework',
   },
   {
-    img: 'https://picsum.photos/400/800/?grayscale',
+    img: 'https://res.cloudinary.com/dx1ye2bro/image/upload/v1649229770/Screenshot_from_2022-03-27_11-50-45_k8zqdx.png',
     desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'Petto assists in resolving the issue of caring for animals and plants when their owners are gone for a short while.',
+    link: 'https://github.com/TMTuringMachine/Petto-LaunchHacks',
   },
   {
-    img: 'https://picsum.photos/400/?grayscale',
+    img: 'https://res.cloudinary.com/dx1ye2bro/image/upload/v1649230073/Screenshot_from_2022-02-27_19-13-22_yg6dhu.png',
     desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      "The distance between parents and instructors is bridged via FollowUp. Students' activities are tracked, represented, and compared to those performed by their peers.",
+    link: 'https://github.com/TMTuringMachine/FollowUp-HackNYU',
   },
   {
-    img: 'https://picsum.photos/400/600/?grayscale',
+    img: 'https://user-images.githubusercontent.com/73652194/213004442-b46f00f7-2083-44e0-bce0-fe6bdd848c88.png',
     desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'WorkFloe: An Employee management platform, where employees can create tasks as per their schedule and admins can track their activities.',
+    link: 'https://workfloe.netlify.app/',
   },
   {
-    img: 'https://picsum.photos/400/300/?grayscale',
+    img: 'https://res.cloudinary.com/dx1ye2bro/image/upload/v1649229946/Screenshot_from_2022-01-30_16-20-47_dakkc9.png',
     desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'Studify is a course centric app, where a student can purchase courses which are added by verified teachers, learn more about it in the github!',
+    link: 'https://github.com/TMTuringMachine/Studify-Unscript2k22',
   },
   {
-    img: 'https://picsum.photos/400/700/?grayscale',
+    img: 'https://user-images.githubusercontent.com/73652194/212998798-bf5779a0-ac10-4d22-993e-a6665339b821.png',
     desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'Created a custom implementation of the Base64 technique, which email providers use to transmit images over networks.',
+    link: 'https://github.com/AryanShinde/ImageEncodingBase_64',
   },
 
   {
-    img: 'https://picsum.photos/400/600/?grayscale',
+    img: 'https://user-images.githubusercontent.com/73652194/213005117-7046d84d-7485-48e5-9c2a-8f5463cb5581.png',
     desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/300/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/550/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/700/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
+      'BookMyBook: An online library, where users can rent/buy books that gets delivered to their doorstep and verified with unique QRs',
+    link: 'https://github.com/TMTuringMachine/HackSprint_Book-Rental',
   },
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: 'name@domain.com',
-  YOUR_FONE: '(555)123-4567',
+  YOUR_EMAIL: 'aryan.shinde.29@gmail.com',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ',
+    "I am just a mail away :) Drop me an email and let's get to building.",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: 'service_id',
-  YOUR_TEMPLATE_ID: 'template_id',
-  YOUR_USER_ID: 'user_id',
+  YOUR_SERVICE_ID: 'service_mk39c96',
+  YOUR_TEMPLATE_ID: 'template_ya3hnkn',
+  YOUR_USER_ID: 'Y7ZMERIdlJQ9FdHmn',
 };
-
+const education = [
+  {
+    title: 'B.Tech - VIT Pune',
+    description:
+      'Currently a computer science undergrad in Vishwakarma Institute of technology, Pune with cgpa of 9.21',
+  },
+  {
+    title: 'Higher Secondary School (12th)',
+    description:
+      'Did my 12th standard from The D.G Ruparel College, Mumbai. Scoring 88.15%',
+  },
+  {
+    title: 'Secondary School (10th)',
+    description:
+      'Did my 10th standard from The Cardinal Gracias High School, Mumbai. Scoring 87.20%',
+  },
+];
 const socialprofils = {
-  github: 'https://github.com',
-  facebook: 'https://facebook.com',
-  linkedin: 'https://linkedin.com',
-  twitter: 'https://twitter.com',
-  youtube: 'https://youtube.com',
-  twitch: 'https://twitch.com',
+  github: 'https://github.com/AryanShinde',
+  linkedin: 'https://www.linkedin.com/in/aryan-shinde-14ab58201/',
+  twitter: 'https://twitter.com/aryan_aag',
+  medium: 'https://medium.com/@aryan.shinde.29',
 };
 export {
   meta,
@@ -244,4 +222,5 @@ export {
   contactConfig,
   socialprofils,
   logotext,
+  education,
 };
